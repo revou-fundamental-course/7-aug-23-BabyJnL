@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Segitia</title>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Kalkulator Luas Segitiga</h2>
+        <label for="base">Alas:</label>
+        <input type="number" id="baseA"><br><br>
+        <label for="height">Tinggi:</label>
+        <input type="number" id="heightA"><br><br>
+        <button onclick="calculateArea()">Hitung</button>
+        <p class="result" id="areaResult"></p>
+    </div>
+    <div class="calculator">
+        <h2>Kalkulator Keliling Segitia</h2>
+        <label for="sideA">Sisi A:</label>
+        <input type="number" id="sideA"><br><br>
+        <label for="sideB">Sisi B:</label>
+        <input type="number" id="sideB"><br><br>
+        <label for="sideC">Sisi C:</label>
+        <input type="number" id="sideC"><br><br>
+        <button onclick="calculatePerimeter()">Hitung</button>
+        <p class="result" id="perimeterResult"></p>
+    </div>
+    <script src="js/script.js" />
+</body>
+</html>
